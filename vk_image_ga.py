@@ -5,6 +5,7 @@ import numpy as np
 import cv2
 from PIL import ImageGrab
 
+#В строчке ниже для входа вводим ,обычно, бывает номер телефона и пароль
 vk_session = vk_api.VkApi('acount', 'password')
 vk_session.auth()
 
